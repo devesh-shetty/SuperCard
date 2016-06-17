@@ -17,6 +17,10 @@
                                 <rect key="frame" x="63" y="75" width="237" height="234"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="h1h-L5-TPA" appends="YES" id="V7Y-1a-ZAf"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.39369581920000002" green="1" blue="0.2175891922" alpha="1" colorSpace="calibratedRGB"/>
@@ -26,6 +30,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="h1h-L5-TPA">
+                    <connections>
+                        <action selector="swipe:" destination="BYZ-38-t0r" id="KUP-qa-MsN"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="173" y="378"/>
         </scene>
