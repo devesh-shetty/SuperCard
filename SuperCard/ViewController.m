@@ -25,6 +25,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.playingCardView.suit= @"❤︎";
     self.playingCardView.rank = 2;
+    [self.playingCardView addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self.playingCardView action:@selector(pinch:)]];
 }
 
 - (void)didReceiveMemoryWarning {
