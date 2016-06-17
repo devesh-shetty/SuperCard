@@ -13,6 +13,7 @@
 		607E4FCB1D140F9300BA8663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607E4FC91D140F9300BA8663 /* Main.storyboard */; };
 		607E4FCD1D140F9300BA8663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607E4FCC1D140F9300BA8663 /* Assets.xcassets */; };
 		607E4FD01D140F9300BA8663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607E4FCE1D140F9300BA8663 /* LaunchScreen.storyboard */; };
+		607E4FD91D14111400BA8663 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 607E4FD81D14111400BA8663 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		607E4FCC1D140F9300BA8663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607E4FCF1D140F9300BA8663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		607E4FD11D140F9300BA8663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607E4FD71D14111400BA8663 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		607E4FD81D14111400BA8663 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				607E4FC61D140F9300BA8663 /* ViewController.h */,
 				607E4FC71D140F9300BA8663 /* ViewController.m */,
 				607E4FC91D140F9300BA8663 /* Main.storyboard */,
+				607E4FD71D14111400BA8663 /* PlayingCardView.h */,
+				607E4FD81D14111400BA8663 /* PlayingCardView.m */,
 				607E4FCC1D140F9300BA8663 /* Assets.xcassets */,
 				607E4FCE1D140F9300BA8663 /* LaunchScreen.storyboard */,
 				607E4FD11D140F9300BA8663 /* Info.plist */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607E4FC81D140F9300BA8663 /* ViewController.m in Sources */,
+				607E4FD91D14111400BA8663 /* PlayingCardView.m in Sources */,
 				607E4FC51D140F9300BA8663 /* AppDelegate.m in Sources */,
 				607E4FC21D140F9300BA8663 /* main.m in Sources */,
 			);
