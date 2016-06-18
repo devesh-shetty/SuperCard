@@ -28,6 +28,7 @@
 
 - (void)setFaceCardScaleFactor:(CGFloat)faceCardScaleFactor{
     _faceCardScaleFactor = faceCardScaleFactor;
+    //redraw
     [self setNeedsDisplay];
 }
 
@@ -53,11 +54,13 @@
 }
 
 - (void)pinch: (UIPinchGestureRecognizer *)gesture{
+    
     if( (gesture.state == UIGestureRecognizerStateChanged) ||
        (gesture.state == UIGestureRecognizerStateEnded) ){
         self.faceCardScaleFactor *= gesture.scale;
         gesture.scale = 1.0;
     }
+    
 }
 
 #pragma mark - Drawing
@@ -113,6 +116,7 @@
 }
 
 - (void)drawCorners{
+    //create a paragraph style
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     paragraphStyle.alignment = NSTextAlignmentCenter;
     
